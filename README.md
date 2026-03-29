@@ -25,11 +25,11 @@ A real-time computer vision application that enables users to draw in the air us
 
 ##  Project Structure
 
-* `hand_tracking.py` → Detects hand landmarks
-* `gesture_detection.py` → Classifies gestures
-* `drawing_module.py` → Handles drawing logic
-* `ui_module.py` → Manages UI elements
-* `main.py` → Integrates all modules
+* hand_tracking.py → Detects hand landmarks
+* gesture_detection.py → Classifies gestures
+* drawing_module.py → Handles drawing logic
+* ui_module.py → Manages UI elements
+* main.py → Integrates all modules
 
 ##  Goal
 
