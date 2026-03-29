@@ -1,6 +1,6 @@
-# virtual-whiteboard-air-writing
-Real-time virtual whiteboard using hand gesture recognition (OpenCV + MediaPipe)
 # Virtual Whiteboard (Air Writing)
+Real-time virtual whiteboard using hand gesture recognition (OpenCV + MediaPipe)
+
 
 A real-time computer vision application that enables users to draw in the air using hand gestures.
 
