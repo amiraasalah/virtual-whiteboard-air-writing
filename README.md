@@ -40,22 +40,30 @@ Draw, erase, move, change colors, adjust your brush, and save your drawings — 
 
 ## 🚀 Installation
 
-### Linux / Ubuntu
-
-Make sure **Python 3.12** and a working webcam are available.
-
-Copy and run this **single command**:
-
+###Windows
+Open PowerShell or Command Prompt.
+Run the following commands:
 ```bash
-git clone https://github.com/YOUR_USERNAME/virtual-board.git && \
-cd virtual-board && \
-python3 -m venv venv && \
-source venv/bin/activate && \
-sudo apt update && \
-sudo apt install -y python3-tk && \
-pip install -r requirements.txt && \
+git clone https://github.com/amiraasalah/virtual-whiteboard-air-writing.git
+cd virtual-whiteboard-air-writing
+python -m venv venv
+venv\Scripts\activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
 python main.py
 ```
+###Linux
+Open a terminal.
+Run the following commands:
+```bash
+git clone https://github.com/amiraasalah/virtual-whiteboard-air-writing.git
+cd virtual-whiteboard-air-writing
+python3 -m venv venv
+source venv/bin/activate
+python3 -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
 
 This automatically:
 
@@ -65,11 +73,6 @@ This automatically:
 4. Installs the required Python packages
 5. Launches the Virtual Board
 
-### Windows
-
-```powershell
-git clone https://github.com/YOUR_USERNAME/virtual-board.git; cd virtual-board; python -m venv venv; .\venv\Scripts\Activate.ps1; pip install -r requirements.txt; python main.py
-```
 
 > **Note:** Tkinter is normally included with Python on Windows.
 
