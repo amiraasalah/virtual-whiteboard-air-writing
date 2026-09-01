@@ -40,7 +40,7 @@ Draw, erase, move, change colors, adjust your brush, and save your drawings — 
 
 ## 🚀 Installation
 
-###Windows
+### Windows
 Open PowerShell or Command Prompt.
 Run the following commands:
 ```bash
@@ -52,7 +52,7 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 python main.py
 ```
-###Linux
+### Linux
 Open a terminal.
 Run the following commands:
 ```bash
