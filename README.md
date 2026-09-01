@@ -1,34 +1,32 @@
-# Virtual Whiteboard (Air Writing)
-Real-time virtual whiteboard using hand gesture recognition
+# 🎨 Virtual Board (Hand Tracking Drawing App)
 
+## 📌 Overview
+Virtual Board is a computer vision project that allows users to draw on the screen using hand gestures.  
+It uses real-time hand tracking to simulate a virtual drawing board without touching the screen.
 
-A real-time computer vision application that enables users to draw in the air using hand gestures.
+## 🚀 Features
+- ✋ Hand tracking using MediaPipe
+- 🎨 Draw in air with fingers
+- 🟥 Shape detection (rectangle, circle, etc.)
+- 🎯 Change colors and brush size
+- 🧽 Erase drawings
+- 💾 Save drawings as images
+- 🖐️ Multi-hand support
 
-##  Features 
+## 🛠️ Tech Stack
+- Python
+- OpenCV
+- MediaPipe
+- NumPy
+- Tkinter (GUI)
 
-* Hand tracking using MediaPipe
-* Gesture-based mode switching (Draw / Select / Erase)
-* Virtual drawing canvas using OpenCV
-* Color selection via on-screen UI
-* Save drawing as an image using PILLOW
-* Select various geometric shapes 
+## 📷 Demo
+<!-- حط هنا صورة أو gif -->
+![demo](demo.gif)
 
-##  Tech Stack
-
-* Python
-* OpenCV
-* MediaPipe
-* NumPy
-* Tkinter
-* Pillow 
-
-
-##  Project Structure
-
-*  classes.py → Core module defining project classes and their associated functions (OOP structure)
-*  main.py → Integrates all modules
-
-##  Goal
-
-Build a smooth, real-time virtual whiteboard with reliable gesture control and a clean UI.
-
+## ⚙️ Installation
+```bash
+git clone https://github.com/ahmed01146403796-crypto/virtual-board.git
+cd virtual-board
+pip install -r requirements.txt
+python main.py
